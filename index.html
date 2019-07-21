@@ -1,0 +1,28 @@
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Simple Count Down</title>
+    <meta name="description" content="Simple Count Down">
+    <meta name="keywords" content="CountDown,Count Down,JQuery,jQuery count down,jquery countdown">
+    <meta name="author" content="Hossein Badrnezhad">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="copyright" content="Persian Computer">
+    <meta name="language" content="FA">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="simpleCountDown.css">
+    <script src="simpleCountDown.js"></script>
+    <style>
+        body {
+            background-color: #eee;
+        }
+    </style>
+</head>
+<body>
+    <div id="CountDownTimerMain"></div>
+    <script>
+        $(document).ready(() => {
+            SimpleCountDown("CountDownTimerMain", {number: 10});
+        });
+    </script>
+</body>
+</html>
